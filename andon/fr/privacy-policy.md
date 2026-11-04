@@ -8,8 +8,9 @@ Cette politique s'applique à l'application mobile Andon (ci-après « l'Applica
 *   **Données de travail** : les appels Andon que vous créez, prenez en charge ou fermez (poste, type d'appel, heures, commentaires). Elles appartiennent à votre organisation.
 *   **Appareil** : un identifiant de l'appareil propre à l'Application, le jeton de notifications, la version de l'Application, le système (iOS ou Android) et la langue. Ils servent à relier votre téléphone à votre compte et à vous envoyer les notifications d'appels.
 *   **Utilisation** : pages consultées, actions, durée des sessions et erreurs, mesurées par Google Analytics et Microsoft Clarity pour améliorer le service. Microsoft Clarity associe ces mesures à votre nom ou courriel, pour le support.
+*   **Voix (seulement si vous dictez)** : quand vous touchez le micro pour dicter une cause ou une consigne, l'enregistrement est envoyé à nos serveurs pour être transcrit en texte. Il sert seulement à produire ce texte ; le micro n'est jamais utilisé sans votre geste.
 
-L'Application ne collecte **pas** votre position, vos contacts, vos photos ni votre micro.
+L'Application ne collecte **pas** votre position, vos contacts ni vos photos.
 
 **Ce qui reste sur votre téléphone**
 

@@ -8,8 +8,9 @@ This policy applies to the Andon mobile application (the "Application"), publish
 *   **Work data**: the Andon calls you create, take or close (workstation, call type, times, comments). They belong to your organization.
 *   **Device**: an Application-specific device identifier, the notification token, the Application version, the system (iOS or Android) and the language. They link your phone to your account and deliver call notifications.
 *   **Usage**: pages viewed, actions, session length and errors, measured by Google Analytics and Microsoft Clarity to improve the service. Microsoft Clarity links these measurements to your name or email, for support.
+*   **Voice (only when you dictate)**: when you tap the microphone to dictate a cause or an instruction, the recording is sent to our servers to be transcribed into text. It is used only to produce that text; the microphone is never used without your action.
 
-The Application does **not** collect your location, contacts, photos or microphone.
+The Application does **not** collect your location, contacts or photos.
 
 **What stays on your phone**
 
