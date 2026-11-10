@@ -1,6 +1,6 @@
 **Politique de confidentialité — Andon**
 
-Cette politique s'applique à l'application mobile Andon (ci-après « l'Application »), éditée par Intelligence Industrielle inc. (ci-après « nous »). L'Application donne accès, sur téléphone, au système Andon d'une usine cliente : appels d'aide des postes de travail, suivi et notifications. Elle est fournie gratuitement aux employés des organisations clientes d'Intelligence Industrielle ; le compte de chaque personne est créé par son organisation, jamais dans l'Application.
+Cette politique s'applique à l'application mobile Andon (ci-après « l'Application »), éditée par Intelligence Industrielle inc. (ci-après « nous »). L'Application donne accès, sur téléphone, au système Andon d'une usine cliente : appels d'aide des postes de travail, suivi et notifications. Elle est fournie gratuitement aux employés des organisations clientes d'Intelligence Industrielle ; le compte de chaque personne est créé par son organisation, jamais dans l'Application, et chacun peut supprimer le sien depuis l'Application.
 
 **Ce que l'Application collecte**
 
@@ -8,9 +8,22 @@ Cette politique s'applique à l'application mobile Andon (ci-après « l'Applica
 *   **Données de travail** : les appels Andon que vous créez, prenez en charge ou fermez (poste, type d'appel, heures, commentaires). Elles appartiennent à votre organisation.
 *   **Appareil** : un identifiant de l'appareil propre à l'Application, le jeton de notifications, la version de l'Application, le système (iOS ou Android) et la langue. Ils servent à relier votre téléphone à votre compte et à vous envoyer les notifications d'appels.
 *   **Utilisation** : pages consultées, actions, durée des sessions et erreurs, mesurées par Google Analytics et Microsoft Clarity pour améliorer le service. Microsoft Clarity associe ces mesures à votre nom ou courriel, pour le support.
-*   **Voix (seulement si vous dictez)** : quand vous touchez le micro pour dicter une cause ou une consigne, l'enregistrement est envoyé à nos serveurs pour être transcrit en texte. Il sert seulement à produire ce texte ; le micro n'est jamais utilisé sans votre geste.
+*   **Voix (seulement si vous dictez)** : quand vous touchez le micro pour dicter une cause ou une consigne, l'enregistrement est envoyé, par nos serveurs, à Google Gemini pour être transcrit en texte (voir « Fonctions d'intelligence artificielle »). Il sert seulement à produire ce texte ; le micro n'est jamais utilisé sans votre geste.
 
 L'Application ne collecte **pas** votre position, vos contacts ni vos photos.
+
+**Fonctions d'intelligence artificielle (Google Gemini)**
+
+Quatre fonctions d'Andon utilisent l'intelligence artificielle de Google (modèle Gemini), par la plateforme d'Intelligence Industrielle. **Avant le premier envoi, l'Application vous montre ce qui sera envoyé et à qui, et vous demande votre accord** (« Accepter » ou « Refuser »). Sans votre accord, rien n'est envoyé et ces fonctions restent coupées ; le reste d'Andon marche normalement. Votre choix est gardé sur l'appareil ; après un refus, l'Application vous le redemande quand vous ouvrez une de ces fonctions.
+
+| Fonction | Données envoyées à Google Gemini | Pourquoi |
+|---|---|---|
+| Analyse IA (Analytique) | le texte des commentaires et des causes saisis à la résolution des appels | en faire une synthèse et des thèmes |
+| Assistant de configuration | ce que vous écrivez à l'assistant, et la configuration de l'usine qu'il consulte (départements, postes, types d'appel, équipes, noms et coordonnées des répondants) | répondre et proposer des modifications, que vous confirmez |
+| Dictée vocale | l'enregistrement de votre voix | le transcrire en texte |
+| Icône suggérée | le nom d'un type d'appel | proposer une icône |
+
+Ces données servent seulement à produire la réponse demandée. Google les traite pour notre compte, comme sous-traitant, avec une protection au moins équivalente à celle décrite dans cette politique. Nous ne lui envoyons ni votre mot de passe ni les données de votre téléphone.
 
 **Ce qui reste sur votre téléphone**
 
@@ -24,7 +37,7 @@ Pour vous connecter, afficher et traiter les appels de votre usine, vous envoyer
 
 **Qui y a accès**
 
-Votre organisation (selon les droits qu'elle donne dans Andon) et Intelligence Industrielle, pour fournir le service. Nos sous-traitants, chacun pour sa seule tâche : Vercel (hébergement de l'application web), Expo, Apple et Google / Firebase (envoi des notifications), Google Analytics et Microsoft Clarity (mesure d'utilisation). Nous pouvons aussi divulguer des données si la loi l'exige.
+Votre organisation (selon les droits qu'elle donne dans Andon) et Intelligence Industrielle, pour fournir le service. Nos sous-traitants, chacun pour sa seule tâche : Vercel (hébergement de l'application web), Expo, Apple et Google / Firebase (envoi des notifications), Google Analytics et Microsoft Clarity (mesure d'utilisation), Google Gemini (fonctions d'intelligence artificielle, seulement avec votre accord). Nous pouvons aussi divulguer des données si la loi l'exige.
 
 Politiques des tiers : [Vercel](https://vercel.com/legal/privacy-policy), [Expo](https://expo.dev/privacy), [Google](https://policies.google.com/privacy), [Microsoft](https://privacy.microsoft.com/fr-ca/privacystatement).
 
@@ -35,6 +48,8 @@ Les données de travail et du compte sont gardées tant que votre organisation u
 **Vos droits**
 
 Selon la Loi 25 du Québec, la LPRPDE (Canada) et le RGPD (Europe), vous pouvez demander l'accès à vos renseignements, leur correction ou leur suppression, et retirer votre consentement. Écrivez-nous ; nous répondons dans un délai de 30 jours. Votre organisation, qui gère votre compte, peut aussi traiter la demande.
+
+**Supprimer votre compte** : depuis l'Application, menu de votre profil → « Supprimer mon compte ». La suppression est immédiate et définitive. Étapes, données supprimées et données gardées : [suppression du compte](https://github.com/intelligence-industrielle/app-privacy-policy/blob/main/andon/fr/account-deletion.md).
 
 **Sécurité**
 
@@ -50,4 +65,4 @@ Intelligence Industrielle inc., responsable de la protection des renseignements 
 
 **Modifications**
 
-Nous publierons toute modification sur cette page. En vigueur à compter du 2026-11-02.
+Nous publierons toute modification sur cette page. En vigueur à compter du 2026-11-10.
