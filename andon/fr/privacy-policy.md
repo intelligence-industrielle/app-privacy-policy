@@ -23,7 +23,7 @@ Quatre fonctions d'Andon utilisent l'intelligence artificielle de Google (modèl
 | Dictée vocale | l'enregistrement de votre voix | le transcrire en texte |
 | Icône suggérée | le nom d'un type d'appel | proposer une icône |
 
-Ces données servent seulement à produire la réponse demandée. Google les traite pour notre compte, comme sous-traitant, avec une protection au moins équivalente à celle décrite dans cette politique. Nous ne lui envoyons ni votre mot de passe ni les données de votre téléphone.
+Ces données servent seulement à produire la réponse demandée. Nous utilisons l'offre payante de l'API Gemini : selon les [conditions de Google](https://ai.google.dev/gemini-api/terms), Google traite ces données pour notre compte, comme sous-traitant, selon son avenant sur le traitement des données (*Data Processing Addendum*), ne s'en sert pas pour améliorer ses produits ni entraîner ses modèles, et ne garde les requêtes que pour une durée limitée, pour détecter les abus et répondre aux obligations légales. Cette protection est au moins équivalente à celle décrite dans cette politique. Nous n'envoyons à Google ni votre mot de passe ni les données de votre téléphone.
 
 **Ce qui reste sur votre téléphone**
 

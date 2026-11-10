@@ -23,7 +23,7 @@ Four Andon features use Google's artificial intelligence (Gemini model), through
 | Voice dictation | the recording of your voice | to turn it into text |
 | Suggested icon | the name of a call type | to suggest an icon |
 
-This data is used only to produce the requested answer. Google processes it on our behalf, as a processor, with protection at least equivalent to the one described in this policy. We never send it your password or your phone's data.
+This data is used only to produce the requested answer. We use the paid Gemini API: under [Google's terms](https://ai.google.dev/gemini-api/terms), Google processes this data on our behalf, as a processor, under its Data Processing Addendum, does not use it to improve its products or train its models, and keeps requests only for a limited period, to detect abuse and meet legal obligations. This protection is at least equivalent to the one described in this policy. We never send Google your password or your phone's data.
 
 **What stays on your phone**
 
