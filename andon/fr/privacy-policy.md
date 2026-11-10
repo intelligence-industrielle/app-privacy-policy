@@ -14,14 +14,15 @@ L'Application ne collecte **pas** votre position, vos contacts ni vos photos.
 
 **Fonctions d'intelligence artificielle (Google Gemini)**
 
-Quatre fonctions d'Andon utilisent l'intelligence artificielle de Google (modèle Gemini), par la plateforme d'Intelligence Industrielle. **Avant le premier envoi, l'Application vous montre ce qui sera envoyé et à qui, et vous demande votre accord** (« Accepter » ou « Refuser »). Sans votre accord, rien n'est envoyé et ces fonctions restent coupées ; le reste d'Andon marche normalement. Votre choix est gardé sur l'appareil ; après un refus, l'Application vous le redemande quand vous ouvrez une de ces fonctions.
+Trois fonctions d'Andon envoient vos renseignements à l'intelligence artificielle de Google (modèle Gemini), par la plateforme d'Intelligence Industrielle. **Pour chacune, séparément, l'Application vous dit au moment de l'utiliser ce qui sera envoyé et à qui, et vous demande votre accord** (« Accepter » ou « Refuser »). Sans votre accord, rien n'est envoyé et la fonction reste coupée ; le reste d'Andon marche normalement. Votre choix est gardé sur l'appareil. **Vous pouvez retirer vos accords en tout temps, en un geste** : menu de votre profil → « Retirer mes accords IA ». Ces renseignements sont traités par Google **hors du Québec**.
 
 | Fonction | Données envoyées à Google Gemini | Pourquoi |
 |---|---|---|
 | Analyse IA (Analytique) | le texte des commentaires et des causes saisis à la résolution des appels | en faire une synthèse et des thèmes |
 | Assistant de configuration | ce que vous écrivez à l'assistant, et la configuration de l'usine qu'il consulte (départements, postes, types d'appel, équipes, noms et coordonnées des répondants) | répondre et proposer des modifications, que vous confirmez |
 | Dictée vocale | l'enregistrement de votre voix | le transcrire en texte |
-| Icône suggérée | le nom d'un type d'appel | proposer une icône |
+
+Une quatrième fonction, l'icône suggérée, n'envoie que le nom d'un type d'appel (aucun renseignement personnel) : elle ne demande pas d'accord.
 
 Ces données servent seulement à produire la réponse demandée. Nous utilisons l'offre payante de l'API Gemini : selon les [conditions de Google](https://ai.google.dev/gemini-api/terms), Google traite ces données pour notre compte, comme sous-traitant, selon son avenant sur le traitement des données (*Data Processing Addendum*), ne s'en sert pas pour améliorer ses produits ni entraîner ses modèles, et ne garde les requêtes que pour une durée limitée, pour détecter les abus et répondre aux obligations légales. Cette protection est au moins équivalente à celle décrite dans cette politique. Nous n'envoyons à Google ni votre mot de passe ni les données de votre téléphone.
 
@@ -37,7 +38,7 @@ Pour vous connecter, afficher et traiter les appels de votre usine, vous envoyer
 
 **Qui y a accès**
 
-Votre organisation (selon les droits qu'elle donne dans Andon) et Intelligence Industrielle, pour fournir le service. Nos sous-traitants, chacun pour sa seule tâche : Vercel (hébergement de l'application web), Expo, Apple et Google / Firebase (envoi des notifications), Google Analytics et Microsoft Clarity (mesure d'utilisation), Google Gemini (fonctions d'intelligence artificielle, seulement avec votre accord). Nous pouvons aussi divulguer des données si la loi l'exige.
+Votre organisation (selon les droits qu'elle donne dans Andon) et Intelligence Industrielle, pour fournir le service. Certains sous-traitants traitent vos renseignements hors du Québec (notamment aux États-Unis) ; nous les choisissons et les encadrons par contrat pour que vos renseignements y bénéficient d'une protection adéquate. Nos sous-traitants, chacun pour sa seule tâche : Vercel (hébergement de l'application web), Expo, Apple et Google / Firebase (envoi des notifications), Google Analytics et Microsoft Clarity (mesure d'utilisation), Google Gemini (fonctions d'intelligence artificielle, seulement avec votre accord). Nous pouvons aussi divulguer des données si la loi l'exige.
 
 Politiques des tiers : [Vercel](https://vercel.com/legal/privacy-policy), [Expo](https://expo.dev/privacy), [Google](https://policies.google.com/privacy), [Microsoft](https://privacy.microsoft.com/fr-ca/privacystatement).
 

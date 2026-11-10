@@ -14,14 +14,15 @@ The Application does **not** collect your location, contacts or photos.
 
 **Artificial intelligence features (Google Gemini)**
 
-Four Andon features use Google's artificial intelligence (Gemini model), through the Intelligence Industrielle platform. **Before the first transfer, the Application shows you what will be sent and to whom, and asks for your consent** ("Accept" or "Refuse"). Without your consent, nothing is sent and these features stay off; the rest of Andon works normally. Your choice is kept on the device; after a refusal, the Application asks again when you open one of these features.
+Three Andon features send your personal information to Google's artificial intelligence (Gemini model), through the Intelligence Industrielle platform. **For each one, separately, the Application tells you when you use it what will be sent and to whom, and asks for your consent** ("Accept" or "Refuse"). Without your consent, nothing is sent and the feature stays off; the rest of Andon works normally. Your choice is kept on the device. **You can withdraw your consents at any time, in one step**: your profile menu → "Withdraw my AI consents". This information is processed by Google **outside Québec**.
 
 | Feature | Data sent to Google Gemini | Why |
 |---|---|---|
 | AI analysis (Analytics) | the text of comments and causes entered when calls are resolved | to summarize them and find themes |
 | Configuration assistant | what you write to the assistant, and the plant configuration it reads (departments, workstations, call types, teams, responders' names and contact details) | to answer and propose changes, which you confirm |
 | Voice dictation | the recording of your voice | to turn it into text |
-| Suggested icon | the name of a call type | to suggest an icon |
+
+A fourth feature, the suggested icon, sends only the name of a call type (no personal information): it does not ask for consent.
 
 This data is used only to produce the requested answer. We use the paid Gemini API: under [Google's terms](https://ai.google.dev/gemini-api/terms), Google processes this data on our behalf, as a processor, under its Data Processing Addendum, does not use it to improve its products or train its models, and keeps requests only for a limited period, to detect abuse and meet legal obligations. This protection is at least equivalent to the one described in this policy. We never send Google your password or your phone's data.
 
@@ -37,7 +38,7 @@ To sign you in, show and handle your plant's calls, send you call notifications,
 
 **Who has access**
 
-Your organization (according to the rights it grants in Andon) and Intelligence Industrielle, to provide the service. Our processors, each for its own task only: Vercel (web application hosting), Expo, Apple and Google / Firebase (notification delivery), Google Analytics and Microsoft Clarity (usage measurement), Google Gemini (artificial intelligence features, only with your consent). We may also disclose data when the law requires it.
+Your organization (according to the rights it grants in Andon) and Intelligence Industrielle, to provide the service. Some processors handle your information outside Québec (in particular in the United States); we choose them and bind them by contract so that your information receives adequate protection there. Our processors, each for its own task only: Vercel (web application hosting), Expo, Apple and Google / Firebase (notification delivery), Google Analytics and Microsoft Clarity (usage measurement), Google Gemini (artificial intelligence features, only with your consent). We may also disclose data when the law requires it.
 
 Third-party policies: [Vercel](https://vercel.com/legal/privacy-policy), [Expo](https://expo.dev/privacy), [Google](https://policies.google.com/privacy), [Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
 
