@@ -14,7 +14,7 @@ L'Application ne collecte **pas** votre position, vos contacts ni vos photos.
 
 **Fonctions d'intelligence artificielle (Google Gemini)**
 
-Trois fonctions d'Andon envoient vos renseignements à l'intelligence artificielle de Google (modèle Gemini), par la plateforme d'Intelligence Industrielle. **Pour chacune, séparément, l'Application vous dit au moment de l'utiliser ce qui sera envoyé et à qui, et vous demande votre accord** (« Accepter » ou « Refuser »). Sans votre accord, rien n'est envoyé et la fonction reste coupée ; le reste d'Andon marche normalement. Votre choix est gardé sur l'appareil. **Vous pouvez retirer vos accords en tout temps, en un geste** : menu de votre profil → « Retirer mes accords IA ». Ces renseignements sont traités par Google **hors du Québec**.
+Trois fonctions d'Andon envoient vos renseignements à l'intelligence artificielle de Google (modèle Gemini), par la plateforme d'Intelligence Industrielle. **Pour chacune, séparément, l'Application vous dit au moment de l'utiliser ce qui sera envoyé et à qui, et vous demande votre accord** (« Accepter » ou « Refuser »). Sans votre accord, rien n'est envoyé et la fonction reste coupée ; le reste d'Andon marche normalement. Votre choix est gardé sur l'appareil. **Vous pouvez retirer vos accords en tout temps, en un geste** : menu de votre profil → « Désactiver les fonctions d'IA ». Ces renseignements sont traités par Google **hors du Québec**.
 
 | Fonction | Données envoyées à Google Gemini | Pourquoi |
 |---|---|---|

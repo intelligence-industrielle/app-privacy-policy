@@ -14,7 +14,7 @@ The Application does **not** collect your location, contacts or photos.
 
 **Artificial intelligence features (Google Gemini)**
 
-Three Andon features send your personal information to Google's artificial intelligence (Gemini model), through the Intelligence Industrielle platform. **For each one, separately, the Application tells you when you use it what will be sent and to whom, and asks for your consent** ("Accept" or "Refuse"). Without your consent, nothing is sent and the feature stays off; the rest of Andon works normally. Your choice is kept on the device. **You can withdraw your consents at any time, in one step**: your profile menu → "Withdraw my AI consents". This information is processed by Google **outside Québec**.
+Three Andon features send your personal information to Google's artificial intelligence (Gemini model), through the Intelligence Industrielle platform. **For each one, separately, the Application tells you when you use it what will be sent and to whom, and asks for your consent** ("Accept" or "Refuse"). Without your consent, nothing is sent and the feature stays off; the rest of Andon works normally. Your choice is kept on the device. **You can withdraw your consents at any time, in one step**: your profile menu → "Turn off AI features". This information is processed by Google **outside Québec**.
 
 | Feature | Data sent to Google Gemini | Why |
 |---|---|---|
